@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Fernando's Psychic Game!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css" />
-    <script src="/assets/javascript/game.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/game.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -17,21 +17,42 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Page headings/jumbotron -->
     <div id="jumbo" class="jumbotron">
         <div class="container">
-                <p id="space-heading">SPACE</p>
-                <p id="hangman-heading">HANGMAN</p>
+                <p id="jumbo1">THE PSYCHIC</p>
+                <p id="jumbo2">GAME</p>
                 
         </div>
     </div>
 
+    <!-- Main game <div> -->
     <div class="container">
         <div class="row">
-            <div id="game-main" class="col-md-8">
-                    <h3 id="press-key">Press any key to get started!</h3>
+            <div id="game-main" class="col-md-12">
+                    <!-- Reworded the phrase below to be grammatically correct -->
+                    <h3 id="press-key">Guess the letter I am thinking by pressing its key</h3>
                     <p id="big-hr-style">\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\</p><br>
-                <div class="row">
-                    <div id="gameBlanks" class="col-md-12">
+                    <!-- Game menus -->
+                    <div class="game-menus">
+                        <p>
+                            
+                            <span id="wins-counter"></span>
+                        </p>
+                        <p>
+                            
+                            <span id="losses-counter"></span>
+                        </p>
+                        <p>
+                            
+                            <span  id="guesses-left"></span>
+                        </p>
+                        <p>
+                            
+                            <span  id="user-guesses"></span>
+                        </p>
+                    </div>
+                    
                         
                     </div>
                 </div>

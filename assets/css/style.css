@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: "Nasalization";
     src: url("../fonts/nasalization-rg.ttf") format("truetype");
@@ -20,18 +22,18 @@ body {
     text-shadow: 6px 8px 4px black;
 }
 
-#space-heading {
-    font-size: 50px;
+#jumbo1 {
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: -3%;
-    margin-left: 5%;
     color: lightsteelblue; 
 }
 
-#hangman-heading {
-    font-size: 80px;
+#jumbo2 {
+    font-size: 100px;
     font-weight: bolder;
     margin-bottom: -2%;
+    letter-spacing: 2px ;
 }
 #game-main {
     border: 5px solid rgb(48, 48, 48, 0.7);
@@ -64,3 +66,12 @@ body {
     text-align: center;
     text-shadow: 3px 3px 3px black;
     letter-spacing: 2px;
+}
+
+.game-menus {
+    text-shadow: 4px 6px 4px black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: lightskyblue;
+}
